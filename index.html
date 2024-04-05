@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Connect 4 made by Timothy">
+		<title>Connect 4</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Connect 4</h1>
+		<h2 id="winner"></h2>
+		<div id="playerSelection">
+			<input id="passwordInput" placeholder="Enter the game code...">
+			<br>
+			<p id="error"></p>
+			<br>
+			<button onclick="checkPassword('R')" class="startBtn">Play as Red</button>
+			<button onclick="checkPassword('Y')" class="startBtn">Play as Yellow</button>
+		</div>
+		<div id="board" style="display:none;"></div>
+	</body>
+</html>
